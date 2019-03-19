@@ -55,6 +55,10 @@ li .apps {
   margin-right: 10px;
 }
 
+li .apps:hover {
+  opacity: 1;
+}
+
 .header nav button {
   color: white;
   background-color: #4387fd;
@@ -66,10 +70,81 @@ li .apps {
 }
 
 .main {
-  background-color: pink;
+  background-color: white;
   flex: 1;
   min-height: 300px;
   text-align: center;
+}
+
+.google-logo {
+  margin-top: 70px;
+}
+
+.search-form {
+  margin-top: 10px;
+}
+
+.search-input {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 482px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:hover, :focus {
+  border: 1px solid #f2eded;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.google-mic-icon {
+  height: 22px;
+  margin: auto;
+  bottom: 48px;
+}
+
+.search-buttons {
+  margin-top: 15px;
+}
+
+.search-buttons button {
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.search-buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.language-alternative {
+  margin-top: 15px;
+}
+
+.language-link {
+  font-size: 13px;
+  padding: auto;
+  text-decoration: none;
+}
+
+.language-link:hover {
+  text-decoration: underline;
 }
 
 .footer {
